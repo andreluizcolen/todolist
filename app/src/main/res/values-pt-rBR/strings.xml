@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarefas</string>
+    <string name="label_date">"Data "</string>
+    <string name="label_new_task">Cadastrar Tarefa</string>
+    <string name="label_title">Título</string>
+    <string name="task">Tarefas</string>
+    <string name="label_desc_task">Descrição da Tarefa</string>
+    <string name="label_hours">Hora</string>
+    <string name="label_create_task">Cadastrar Tarefa</string>
+    <string name="label_cancel">Cancelar</string>
+</resources>

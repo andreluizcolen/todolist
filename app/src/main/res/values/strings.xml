@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ToDoList</string>
+    <string name="task">Task</string>
+    <string name="label_new_task">New Task</string>
+    <string name="label_title">Title</string>
+    <string name="label_date">Date</string>
+    <string name="label_hours">Hours</string>
+    <string name="label_desc_task">Task Descritpion</string>
+    <string name="label_create_task">Create Task</string>
+    <string name="label_cancel">Cancel</string>
 </resources>
