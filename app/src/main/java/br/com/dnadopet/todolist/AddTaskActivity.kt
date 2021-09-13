@@ -42,9 +42,12 @@ class AddTaskActivity: AppCompatActivity() {
         binding.tilHours.editText?.setOnClickListener {
             val timePicker = MaterialTimePicker.Builder()
                 .setTimeFormat(TimeFormat.CLOCK_24H)
+                .setTitleText("Selecione a Hora da Tarefa")
                 .build()
             timePicker.addOnPositiveButtonClickListener {
-                binding.tilHours.text = "${timePicker.hour}:${timePicker.minute}"
+                val hours = if (timePicker.hour in 0..9) "0${timePicker.hour}" else timePicker.hour
+                val minutes = if (timePicker.minute in 0..9) "0${timePicker.minute}" else timePicker.minute
+                binding.tilHours.text = "$hours:$minutes"
             }
             timePicker.show(supportFragmentManager,null)
         }
